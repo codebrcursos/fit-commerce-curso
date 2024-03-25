@@ -1,7 +1,7 @@
-import { Button } from '@/components/ui/button'
 import DropDown from '@/components/header/dropDown'
 import Nav from '@/components/nav'
 import { Separator } from '@/components/ui/separator'
+import ClerkAuth from './clerkAuth'
 
 const Header = () => {
 	return (
@@ -11,7 +11,7 @@ const Header = () => {
 					<h1 className="block font-bold text-2xl">Fit Shop</h1>
 
 					<div className="flex items-center gap-6">
-						<Button>Button</Button>
+						<ClerkAuth />
 						<DropDown />
 					</div>
 				</div>
